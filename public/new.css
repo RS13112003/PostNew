@@ -1,0 +1,78 @@
+/* basic reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* page background */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./286.jpg");
+    background-size: cover;
+}
+.heading h2{
+    font-size: 2rem;
+    color: #0cf00f;
+    margin-bottom: 20px;
+}
+/* form container */
+form{
+    background: goldenrod;
+    padding: 35px 40px;
+    border-radius: 10px;
+    width: 340px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* input fields */
+input{
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    /* background-color: rgb(199, 200, 202); */
+}
+/* textarea */
+textarea{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    resize: none;
+    margin-bottom: 15px;
+    /* background-color: rgb(247, 164, 247); */
+}
+
+/* focus effect */
+input:focus,
+textarea:focus{
+    outline: none;
+    border-color: #6c63ff;
+}
+
+/* submit button */
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #6c63ff;
+    color: white;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* button hover */
+button:hover{
+    background: #574fd6;
+}

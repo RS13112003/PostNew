@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View content</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+    <h2>Here is your full Post in details</h2>
+    <div class="post">
+        <div class="container-view">
+            <p>ID : <%= user.id %> </p>
+            <h3 class="username">Username : <%= user.username %> </h3>
+            <h4>Email :  <%= user.email %> </h4>
+        </div>
+        <textarea name="content" rows="10" cols="10"> <%= user.content %> </textarea>
+        <br> <br>
+        <form method="get" action="/users">
+            <button class="back-btn">Back</button>
+        </form>
+    </div>
+
+</body>
+</html>

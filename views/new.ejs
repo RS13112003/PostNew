@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User</title>
+    <link rel="stylesheet" href="/new.css">
+</head>
+<body>
+    <div class="heading">
+        <h2>Create your Post &hearts;</h2>
+    </div>
+    <form method="post" action="/users/new">
+        <div class="container">
+            <div class="new-username">
+                <input type="text" name="username" id="user" placeholder="Enter username">
+                <label for="user"></label> <br> <br>
+            </div>
+            <div class="new-email">
+                <input type="email" name="email" id="email" placeholder="Enter Email">
+                <label for="email"></label> <br> <br>
+            </div>
+            
+            <div class="new-pass">
+                <input type="password" name="password" id="pass" placeholder="Enter password">
+                <label for="pass"></label> <br> <br>
+            </div>
+            
+            <div class="new-content">
+                <textarea name="content" cols="20" rows="10" placeholder="Write your post"></textarea>
+            </div>
+            
+            <button>Submit</button>
+        </div>
+        
+    </form>
+</body>
+</html>

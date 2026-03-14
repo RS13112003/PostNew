@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/PostNest.png" type="image/png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav>
+        <a href="/postnest" class="brand" style="color: #D946EF;">
+            <img src="/PostNest.png" alt="PostNest logo">
+            PostNest 
+        </a>
+        <a href="/postnest"> <i class="fa-solid fa-house"> </i> Home</a>
+        <a href="/users"> <i class="fa-solid fa-user"> </i> Users</a>
+    </nav>
+
+    <div class="page">
+
+        <div class="page-header">
+            <h1>User <span class="accent">Dashboard</span></h1>
+            <p class="subtitle">Overview of all registered users in the database.</p>
+        </div>
+
+        <div class="stat-grid">
+            <div class="stat-card">
+                <div class="label">Total Users</div>
+                <div class="number"><%= count %></div>
+            </div> 
+            <div class="stat-card">
+                <div class="label">Database</div>
+                <div class="number" style="font-size:1.4rem; padding-top:8px; color: var(--accent2);">MySQL</div>
+            </div>
+        </div>
+
+        <div class="home-actions">
+            <a href="/users" class="btn btn-primary">View All Users →</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
