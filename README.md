@@ -1,4 +1,7 @@
 # PostNest
+Node.js • Express • MySQL • EJS
+CRUD Micro Blogging Application
+Secure Post Editing with Password Verification
 
 PostNest is a **mini micro-posting web application** where users can share short posts and manage them securely.
 It is a simplified version of a **micro-blogging platform** similar to Twitter or Threads, built using **Node.js, Express, MySQL, and EJS**.
