@@ -3,9 +3,9 @@ const { faker } = require("@faker-js/faker");
 const mysql = require("mysql2")
 
 const express = require("express");
-const app=express();
-const port=8080;
-const path=require("path");
+const app = express();
+const port = process.env.PORT || 8080;
+const path = require("path");
 const methodoverride = require("method-override")
 
 app.set("view engine","ejs");
