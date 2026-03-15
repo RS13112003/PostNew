@@ -4,7 +4,8 @@ create table user(
     username varchar(50)  not null,
     email varchar(50) not null,
     content varchar(255) not null,
-    password varchar(50)  not null
+    password varchar(50)  not null,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 -- Added to store the time when a user creates a post
 -- This helps show newest users/posts at the top using ORDER BY created_at DESC
