@@ -25,6 +25,9 @@ const connection = mysql.createConnection({
 });
 
 // Home Route 
+app.get("/", (req, res) => {
+    res.redirect("/postnest");
+});
 app.get("/postnest",(req,res)=>{
     let q = `select count(*) from user`;
     try{
